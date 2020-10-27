@@ -8,10 +8,7 @@ Get balance -
 Host: localhost:8080
 Content-Type: application/json
 cache-control: no-cache
-{
-	"value": 1,
-	"walletId": 2
-}`
+
 
 Add transaction - `POST /api/wallet/transaction HTTP/1.1
                    Host: localhost:8080
